@@ -1,0 +1,51 @@
+server:
+  port: 8090
+  servlet:
+    context-path: /
+spring:
+  output:
+    ansi:
+      enabled: always
+  cache:
+    type: redis
+  redis:
+    password: 1234
+    host: 127.0.0.1
+    port: 6379
+    jedis:
+      pool:
+        min-idle: 8
+        max-idle: 100
+        max-active: 2000
+        max-wait: 10000
+    timeout: 0
+  application:
+    name: code-gen-demo
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+    serialization:
+      write-dates-as-timestamps: false
+    parser:
+      #允许出现特殊字符和转义符
+      allow_unquoted_control_chars: true
+      #允许出现单引号
+      allow_single_quotes: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/db?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&useSSL=false&autoReconnect=true
+    username: ***
+    password: ***
+  banner:
+    location: banner.txt
+mybatis-plus:
+  config-location: classpath:config/mybatis-config.xml
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.yourcompany.**.model
+  global-config:
+    banner: false
+    db-config:
+      id-type: auto
+      table-underline: true
+      logic-delete-value: 0
+      logic-not-delete-value: 1

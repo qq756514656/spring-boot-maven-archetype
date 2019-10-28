@@ -1,0 +1,51 @@
+<archetype>
+  <id>spring-boot-maven-archetype</id>
+  <sources>
+    <source encoding="UTF-8">src/main/java/annotation/LogTable.java</source>
+    <source encoding="UTF-8">src/main/java/annotation/LogTableField.java</source>
+    <source encoding="UTF-8">src/main/java/config/JacksonConfig.java</source>
+    <source encoding="UTF-8">src/main/java/config/MybatisPlusConfig.java</source>
+    <source encoding="UTF-8">src/main/java/config/RedisConfig.java</source>
+    <source encoding="UTF-8">src/main/java/config/Swagger2Config.java</source>
+    <source encoding="UTF-8">src/main/java/exception/BizException.java</source>
+    <source encoding="UTF-8">src/main/java/exception/CheckedException.java</source>
+    <source encoding="UTF-8">src/main/java/exception/DeniedException.java</source>
+    <source encoding="UTF-8">src/main/java/exception/GlobalExceptionHandler.java</source>
+    <source encoding="UTF-8">src/main/java/exception/RedisConnectException.java</source>
+    <source encoding="UTF-8">src/main/java/exception/ValidateCodeException.java</source>
+    <source encoding="UTF-8">src/main/java/function/JedisExecutor.java</source>
+    <source encoding="UTF-8">src/main/java/jackson/JavaTimeModule.java</source>
+    <source encoding="UTF-8">src/main/java/redis/service/RedisService.java</source>
+    <source encoding="UTF-8">src/main/java/redis/service/impl/RedisServiceImpl.java</source>
+    <source encoding="UTF-8">src/main/java/response/R.java</source>
+    <source encoding="UTF-8">src/main/java/response/ResponseType.java</source>
+    <source encoding="UTF-8">src/main/java/support/tree/AbstractTreeModel.java</source>
+    <source encoding="UTF-8">src/main/java/support/tree/TreeSupport.java</source>
+    <source encoding="UTF-8">src/main/java/support/Cache.java</source>
+    <source encoding="UTF-8">src/main/java/support/Grid.java</source>
+    <source encoding="UTF-8">src/main/java/support/PageVo.java</source>
+    <source encoding="UTF-8">src/main/java/support/RedisInfo.java</source>
+    <source encoding="UTF-8">src/main/java/support/Sort.java</source>
+    <source encoding="UTF-8">src/main/java/util/ClassUtils.java</source>
+    <source encoding="UTF-8">src/main/java/util/Constants.java</source>
+    <source encoding="UTF-8">src/main/java/util/DateFormatUtils.java</source>
+    <source encoding="UTF-8">src/main/java/util/OkHttpUtil.java</source>
+    <source encoding="UTF-8">src/main/java/util/Size.java</source>
+    <source encoding="UTF-8">src/main/java/util/SpringContextHolder.java</source>
+    <source encoding="UTF-8">src/main/java/util/StringTool.java</source>
+    <source encoding="UTF-8">src/main/java/util/WebUtils.java</source>
+    <source encoding="UTF-8">src/main/java/Application.java</source>
+  </sources>
+  <resources>
+    <resource encoding="UTF-8">src/main/resources/config/mybatis-config.xml</resource>
+    <resource encoding="UTF-8">src/main/resources/application.yml</resource>
+    <resource encoding="UTF-8">src/main/resources/application-dev.yml</resource>
+    <resource encoding="UTF-8">src/main/resources/application-test.yml</resource>
+    <resource encoding="UTF-8">src/main/resources/application-prod.yml</resource>
+    <resource encoding="UTF-8">src/main/resources/banner.txt</resource>
+    <resource encoding="UTF-8">src/main/resources/logback-spring.xml</resource>
+  </resources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+</archetype>

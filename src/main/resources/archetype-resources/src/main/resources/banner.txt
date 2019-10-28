@@ -1,0 +1,13 @@
+${AnsiColor.MAGENTA}
+      .__       .__                      __                   .__
+___  _|__| _____|__| ____   ____   _____/  |_          _____  |__|
+\  \/ /  |/  ___/  |/  _ \ /    \_/ __ \   __\  ______ \__  \ |  |
+ \   /|  |\___ \|  (  <_> )   |  \  ___/|  |   /_____/  / __ \|  |
+  \_/ |__/____  >__|\____/|___|  /\___  >__|           (____  /__|
+              \/               \/     \/                    \/
+
+                       Spring Boot Version :: ${spring-boot.version}
+
+                       Visionet Group Microservice Architecture
+
+                      Create By Jason Liu  --------------------

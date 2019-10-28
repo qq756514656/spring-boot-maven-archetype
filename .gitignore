@@ -1,0 +1,43 @@
+/target/
+target/
+/target
+/logs
+/logs/
+logs/
+xxl_log
+!.mvn/wrapper/maven-wrapper.jar
+.DS_Store
+*/.DS_Store
+# Package Files #
+*.jar
+*.war
+*.ear
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+/xxl-job/
+
+### VS Code ###
+.vscode/
+tatus
+spring-boot-maven-archetype.iml
